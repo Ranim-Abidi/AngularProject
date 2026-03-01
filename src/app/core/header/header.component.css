@@ -1,0 +1,40 @@
+.navbar {
+  background: linear-gradient(90deg, #0f172a, #1d4ed8);
+  color: #e5e7eb;
+  padding: 0.9rem 2.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-shadow: 0 10px 30px rgba(15, 23, 42, 0.4);
+}
+
+.logo {
+  font-size: 1.25rem;
+  font-weight: 700;
+  letter-spacing: 0.04em;
+}
+
+.menu {
+  display: flex;
+  gap: 1.2rem;
+  align-items: center;
+}
+
+.menu a {
+  color: #e5e7eb;
+  text-decoration: none;
+  font-weight: 500;
+  padding: 0.4rem 0.9rem;
+  border-radius: 999px;
+  transition: background-color 0.2s, color 0.2s, transform 0.1s;
+}
+
+.menu a:hover {
+  background-color: rgba(15, 23, 42, 0.5);
+  transform: translateY(-1px);
+}
+
+.menu a.active {
+  background-color: #f9fafb;
+  color: #1d4ed8;
+}

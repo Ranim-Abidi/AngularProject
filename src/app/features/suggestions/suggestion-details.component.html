@@ -1,0 +1,24 @@
+<div class="container" *ngIf="suggestion">
+  <h2 class="page-title">{{ suggestion.title }}</h2>
+
+  <p class="description">{{ suggestion.description }}</p>
+
+  <p class="meta">
+    <span class="category">{{ suggestion.category }}</span>
+    <span class="date">{{ suggestion.date | date : "dd/MM/yyyy" }}</span>
+    · {{ suggestion.nbLikes }} like(s)
+  </p>
+
+  <p class="status">
+    Statut :
+    {{ suggestion.status === 'acceptee' ? 'Acceptée' : suggestion.status === 'refusee' ? 'Refusée' : 'En attente' }}
+  </p>
+
+  <a class="back-link" routerLink="/suggestions">Back to list</a>
+</div>
+
+<div class="container" *ngIf="!suggestion">
+  <p>Suggestion introuvable.</p>
+  <a class="back-link" routerLink="/suggestions">Back to list</a>
+</div>
+

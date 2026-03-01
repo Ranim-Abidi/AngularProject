@@ -1,0 +1,94 @@
+.page {
+  max-width: 960px;
+  margin: 2.5rem auto;
+  padding: 0 1.5rem;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  font-size: 1.8rem;
+  font-weight: 700;
+  color: #0f172a;
+}
+
+.search {
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 999px;
+  border: 1px solid #cbd5f5;
+  margin-bottom: 1.75rem;
+  font-size: 0.95rem;
+  background-color: #f9fafb;
+}
+
+.card {
+  background: #ffffff;
+  padding: 1.5rem 1.6rem;
+  border-radius: 1rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 10px 25px rgba(15, 23, 42, 0.08);
+}
+
+.meta {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  color: #6b7280;
+}
+
+.category {
+  color: #2563eb;
+  font-weight: 600;
+  margin-right: 0.75rem;
+}
+
+.date {
+  color: #9ca3af;
+}
+
+.badge {
+  display: inline-block;
+  padding: 0.25rem 0.9rem;
+  border-radius: 999px;
+  font-weight: 600;
+  margin-top: 0.75rem;
+  font-size: 0.75rem;
+}
+
+.accepted {
+  background: #dcfce7;
+  color: #166534;
+}
+
+.rejected {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+.actions {
+  margin-top: 1rem;
+}
+
+.like,
+.fav {
+  border: none;
+  padding: 0.55rem 1rem;
+  border-radius: 999px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+}
+
+.like {
+  background: #2563eb;
+  color: #ffffff;
+  margin-right: 0.5rem;
+}
+
+.fav {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  color: #111827;
+}
